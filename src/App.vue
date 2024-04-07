@@ -1,17 +1,15 @@
 <template>
 	<div id="app">
-		<p>This is inside the root element</p>
-		<p>This is inside the root element</p>
-		<SiteHeader />
+		<Layout />
 	</div>
 </template>
 
 <script>
-	import SiteHeader from './components/Layout/Header/Header.vue'
+	import Layout from './components/Layout/Layout.vue'
 	export default {
 		name: 'App',
 		components: {
-			SiteHeader
+			Layout,
 		}
 	}
 </script>

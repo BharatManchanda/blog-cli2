@@ -1,3 +1,10 @@
-#webpack-dev-server-client-overlay-div {
+/* #webpack-dev-server-client-overlay-div {
     display: none !important;
+} */
+
+a.text-white.my-auto.d-inline-block.mr-2.router-link-exact-active.active {
+    text-decoration: underline;
+    font-weight: bold;
+    /* color: #dc3545 !important; */
+    text-decoration-thickness: 11%;
 }
