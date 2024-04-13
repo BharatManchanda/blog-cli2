@@ -12,7 +12,9 @@
                 </div>
                 <p class="lead">Lorem ipsum dolor sit amet consectetur. Consectetur risus quis diam hendrerit. Interdum mattis in sed diam egestas metus at duis commodo. Cursus quis cursus dignissim egestas sollicitudin tristique quis. Orci neque quis porttitor eu amet. ommodo. Cursus quis cursus dignissim egestas sollicitudin tristique quis. Orci neque quis porttitor eu amet.</p>
             </b-card-text>
-            <b-button variant="danger">Read Fulll Article</b-button>
+            <router-link to="/blog-detail/12">
+                <b-button variant="danger">Read Fulll Article</b-button>
+            </router-link>
         </b-card>
         <hr style="border: 1px solid #e8e9ea">
     </div>

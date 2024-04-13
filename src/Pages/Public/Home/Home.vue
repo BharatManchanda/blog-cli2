@@ -110,7 +110,7 @@
 
 <script>
 	import NewTechnologyCard from './Components/NewTechnologyCard.vue'
-	import CategoryCard from  './Components/CategoryCard.vue'
+	import CategoryCard from  '../../../components/CategoryCard/CategoryCard.vue'
 	import HeaderSection from  '../../../components/HeaderSection/HeaderSection.vue'
 	export default {
 		name:'HomePage',
