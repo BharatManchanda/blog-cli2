@@ -6,23 +6,53 @@ import BlogDetail from '../Pages/Public/Blog/BlogDetail.vue'
 const routes = [
     {
         path:'/',
-        component: Home
+        meta:'PublicLayout',
+        component: Home,
     },
     {
         path:'/blog',
-        component: Blog
+        meta:'PublicLayout',
+        component: Blog,
     },
     {
         path:'/blog-detail/:id',
+        meta:'PublicLayout',
         component: BlogDetail
     },
     {
         path:'/about',
-        component: About
+        meta:'PublicLayout',
+        component: About,
     },
     {
         path:'/contact-us',
-        component: Contact
+        meta:'PublicLayout',
+        component: Contact,
+    },
+    {
+        path:'/admin/dashboard',
+        meta:'AdminLayout',
+        component: Contact,
+    },
+    {
+        path:'/admin/category',
+        meta:'AdminLayout',
+        component: Contact,
+    },
+    {
+        path:'/admin/blog',
+        meta:'AdminLayout',
+        component: Contact,
+    },
+    {
+        path:'/admin/message',
+        meta:'AdminLayout',
+        component: Contact,
+    },
+    {
+        path:'/admin/report',
+        meta:'AdminLayout',
+        component: Contact,
     },
 ];
 
