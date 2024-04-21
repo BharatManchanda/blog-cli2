@@ -3,6 +3,11 @@ import Blog from '../Pages/Public/Blog/Blog.vue'
 import About from '../Pages/Public/About/About.vue'
 import Contact from '../Pages/Public/Contact/Contact.vue'
 import BlogDetail from '../Pages/Public/Blog/BlogDetail.vue'
+import Dashboard from '../Pages/Admin/Dashboard/Dashboard.vue'
+import Report from '../Pages/Admin/Report/Report.vue'
+import Message from '../Pages/Admin/Message/Message.vue'
+import Category from '../Pages/Admin/Category/Category.vue'
+
 const routes = [
     {
         path:'/',
@@ -32,27 +37,27 @@ const routes = [
     {
         path:'/admin/dashboard',
         meta:'AdminLayout',
-        component: Contact,
+        component: Dashboard,
     },
     {
         path:'/admin/category',
         meta:'AdminLayout',
-        component: Contact,
+        component: Category,
     },
     {
         path:'/admin/blog',
         meta:'AdminLayout',
-        component: Contact,
+        component: Blog,
     },
     {
         path:'/admin/message',
         meta:'AdminLayout',
-        component: Contact,
+        component: Message,
     },
     {
         path:'/admin/report',
         meta:'AdminLayout',
-        component: Contact,
+        component: Report,
     },
 ];
 

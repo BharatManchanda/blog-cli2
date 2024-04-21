@@ -1,10 +1,9 @@
 <template>
-    <ul class="p-2">
+    <ul class="p-0">
         <router-link
             v-for="link in links"
             :to="link.to"
             :key="link.id"
-            :class="item == 2 ? 'active': ''"
             exact active-class="active"
             class="d-block list-unstyled px-3 py-2 font-weight-bold rounded-lg mt-1 text-dark"
         >
