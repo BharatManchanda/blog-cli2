@@ -7,6 +7,7 @@ import Dashboard from '../Pages/Admin/Dashboard/Dashboard.vue'
 import Report from '../Pages/Admin/Report/Report.vue'
 import Message from '../Pages/Admin/Message/Message.vue'
 import Category from '../Pages/Admin/Category/Category.vue'
+import AdminBlog from '../Pages/Admin/Blog/Blog.vue'
 
 const routes = [
     {
@@ -47,7 +48,7 @@ const routes = [
     {
         path:'/admin/blog',
         meta:'AdminLayout',
-        component: Blog,
+        component: AdminBlog,
     },
     {
         path:'/admin/message',

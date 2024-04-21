@@ -11,7 +11,9 @@
 
 		},
 		data() {
-
+			return {
+				
+			}
 		},
     }
 </script>
