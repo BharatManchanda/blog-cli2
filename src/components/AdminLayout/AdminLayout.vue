@@ -40,7 +40,7 @@
                 </b-col>
             </b-col>
             <b-col lg="10" class="p-1">
-                <b-col lg="12" class="rounded-lg bg-success py-2 my-2 main-content">
+                <b-col lg="12" class="rounded-lg bg-white py-2 my-2 main-content">
                     <router-view />
                 </b-col>
             </b-col>
